@@ -1,5 +1,3 @@
-FROM node:11-stretch
-
+FROM node:7
 COPY app.js /app/app.js
-EXPOSE 8000
 CMD ["node", "/app/app.js"]
